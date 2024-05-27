@@ -37,42 +37,81 @@
 
 /* Шапка */
 .header_btn {
-
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-decoration: none;
 }
 .header_number {
-
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  text-decoration: none;
 }
 
 /* Промо */
 .promo_title {
-
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  line-height: 89px;
+  font-size: 60px;
+  text-align: center;
 }
-.promo_text {
 
+.promo_text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
 }
 
 /* description */
 .description_title {
-
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
 }
-.description_item {
 
+.descrit_caption {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 53px;
 }
 .descript_text {
-
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
 }
 
 /* Lead */
 .lead_title {
-
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
 }
-.lead_btn {
 
+.lead_btn {
+  /* Высота стандартная сколько? */
+  font-weight: 500; 
+  font-size: 36px;
+  line-height: 44px;
+  text-decoration: none;
+/* Этот тег не действует на ссылки. */
+  text-align: center;
 }
 /* Подвал */
 .footer_text {
-
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 500;
 }
 .footer_copy {
+  font-weight: 500; 
+  font-size: 18px;
+  line-height: 22px;
     
 }
